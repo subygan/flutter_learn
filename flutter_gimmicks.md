@@ -2,7 +2,7 @@
 emoji: 🪿
 title: Flutter Gimmicks
 description: Fidgeting with flutter and it's internals
-date: 2024-03-8
+date: 2024-03-08
 layout: base
 ---
 
