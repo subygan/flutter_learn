@@ -1,6 +1,7 @@
 ---
 emoji: 💻
 title: Dart by example
+tags: ["tech", "programming"]
 ---
 
 ## Main

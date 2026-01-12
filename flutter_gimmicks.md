@@ -4,6 +4,7 @@ title: Flutter Gimmicks
 description: Fidgeting with flutter and it's internals
 date: 2024-03-08
 layout: base
+tags: ["tech", "programming"]
 ---
 
 Flutter comes with super complex build system that ties in all the language runtimes with dart and the native rendering engine. So, naturally there is a tradeoff between having to build all these things and being slow or reusing builds and being fast but occassionally wrong.
