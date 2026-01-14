@@ -1,10 +1,10 @@
 ---
 emoji: 💻
-title: Dart by example
+title: dart by example
 tags: ["tech", "programming"]
 ---
 
-## Main
+## main
 
 `main()` is the entrypoint for application
 
@@ -19,7 +19,7 @@ Also, this works
 main() => print('Hello')
 ```
 
-## Values
+## values
 
 ```dart
 main(){
@@ -27,7 +27,7 @@ main(){
 }
 ```
 
-## For
+## for
 
 ```dart
 main(){
@@ -59,7 +59,7 @@ main(){
 }
 ````
 
-## Null aware Operators
+## null aware operators
 
 ```dart
 main(){
@@ -75,7 +75,7 @@ main(){
 }
 ````
 
-## Switch
+## switch
 
 ```dart
 main(){
@@ -132,7 +132,7 @@ main(){
 ```
 
 
-## Queue
+## queue
 
 ```dart
 main(){
@@ -149,7 +149,7 @@ main(){
 }
 ```
 
-## Functions
+## functions
 
 ```dart
 yell(str) => str.toUpperCase(); //Valid function definition
@@ -171,7 +171,7 @@ main(){
 poem = 'poem'
 ```
 
-## Optional parameters
+## optional parameters
 
 ```dart
 String yell(String str, [bool exclaim = false]) {
@@ -195,7 +195,7 @@ main() {
     }
 ```
 
-## Lexical Scope
+## lexical scope
 
 ```dart
 //variables declared inside loops will have a new version each time.
@@ -225,7 +225,7 @@ main(){
 
 - use underscore to silence dartanalyzer
 
-## Constants
+## constants
 
 ```dart
 import `dart:math`;
@@ -235,7 +235,7 @@ const name = "greg"; //Compile time variable
 const Rectangle bounds = const Rectangle (0,0,5,5); //Even objects can be declared compile time
 ```
 
-## Final
+## final
 
 Final is used when the value is not known at compile time.
 The values are immutable
@@ -267,7 +267,7 @@ class Position {
 
 ```
 
-## Static
+## static
 
 Values are available in the class description itself instead of in an instance of a class
 
@@ -286,7 +286,7 @@ main(){
 }
 ```
 
-## Classes
+## classes
 
 ```dart
 import 'dart:math';
@@ -335,7 +335,7 @@ main(){
 }
 ```
 
-## Initializer Lists + getters and setters
+## initializer lists + getters and setters
 
 ```dart
 
@@ -368,7 +368,7 @@ main(){
 }
 ```
 
-## Inheritance
+## inheritance
 
 ```dart
 //Abstract classes cannot be instantiated
@@ -394,7 +394,7 @@ class Pikachu implements Animal {
 
 ```
 
-## Mixins
+## mixins
 
 ```dart
 import `dart:math`;
